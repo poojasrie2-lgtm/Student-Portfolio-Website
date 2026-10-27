@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Alex Carter | Student Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Header Navigation -->
+ <header>
+ <div class="logo">AC</div>
+ <nav>
+ <ul>
+ <li><a href="#hero">Home</a></li>
+ <li><a href="#projects">Projects</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+ </nav>
+ <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+ </header>
+ <main>
+ <!-- Hero Section -->
+ <section id="hero" class="hero-section">
+ <div class="hero-content">
+ <h1>Hi, I'm <span class="highlight">Alex Carter</span></h1>
+ <p>Computer Science Student & Aspiring Frontend Developer</p>
+ <a href="#projects" class="btn">View My Work</a>
+ </div>
+ </section>
+ <!-- Projects Section -->
+ <section id="projects" class="projects-section">
+ <h2>Featured Projects</h2> <div class="project-grid">
+ <article class="project-card">
+ <h3>Study Buddy App</h3>
+ <p>A collaborative calendar tool built for university students to 
+synchronize study sessions.</p>
+ <span class="tech-tag">HTML</span> <span class="tech-
+tag">CSS</span>
+ </article>
+ <article class="project-card">
+ <h3>EcoTrack</h3>
+ <p>A simple web application designed to calculate and visualize 
+weekly carbon footprints.</p>
+ <span class="tech-tag">JavaScript</span>
+ </article>
+ </div>
+ </section>
+ <!-- Contact Section -->
+ <section id="contact" class="contact-section">
+ <h2>Get In Touch</h2>
+ <form id="contact-form">
+ <input type="text" id="name" placeholder="Your Name" required>
+ <input type="email" id="email" placeholder="Your Email" required>
+ <textarea id="message" placeholder="Your Message" 
+required></textarea>
+ <button type="submit" class="btn">Send Message</button>
+ </form>
+ <div id="form-feedback" class="hidden"></div>
+ </section>
+ </main>
+ <footer>
+ <p>&copy; 2026 Alex Carter. Built from scratch.</p>
+ </footer>
+ <script src="script.js"></script>
+</body>
+</html>
